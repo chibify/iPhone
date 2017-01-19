@@ -1,0 +1,394 @@
+text {
+/* Disable text highlighting*/
+-moz-user-select: none;
+/* Firefox */
+-ms-user-select: none;
+/* Internet Explorer */
+-khtml-user-select: none;
+/* KHTML browsers (e.g. Konqueror) */
+-webkit-user-select: none;
+/* Chrome, Safari, and Opera */
+-webkit-touch-callout: none;
+/* Disable Android and iOS callouts*/
+}
+
+.screen {
+fill: skyblue/* Change this value to change color of phone BG (hex or plain text) */
+;
+}
+
+body {
+background-color: #212121;
+}
+
+.bezel {
+fill: #9E9E9E;
+}
+
+.lock {
+fill: #9E9E9E;
+}
+
+.lock:hover {
+fill: #9E9E9E;
+cursor: pointer;
+}
+
+.base {
+fill: #262626;
+}
+
+.button {
+stroke-width: 1.5;
+stroke: #1a1a1a;
+fill: #262626;
+}
+
+.button:hover {
+cursor: pointer;
+}
+
+.camera {
+stroke-width: 1.5;
+stroke: #1a1a1a;
+fill: #1a1a1a;
+}
+
+.camera1 {
+stroke: none;
+fill: #1a1a1a;
+}
+
+.camera2 {
+stroke: none;
+fill: #212121;
+}
+
+.taskbar {
+fill: #EEEEEE;
+opacity: 0.3;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+font-size: 25px;
+}
+
+.msg {
+fill: #00E676;
+}
+
+.calender {
+fill: #FAFAFA;
+}
+
+.calender_text {
+font-size: 10px;
+font-family: 'Roboto';
+}
+
+.calender_header {
+font-size: 6px;
+fill: #F44336;
+font-family: 'Roboto';
+}
+
+.photo {
+fill: #FAFAFA;
+}
+
+.photo_segment {
+rx: 3;
+opacity: 0.6;
+}
+
+.photo_segment_transformA {
+rx: 3;
+opacity: 0.6;
+transform: rotate(45deg);
+transform-origin: 50% 50%;
+}
+
+.photo_segment_transformB {
+rx: 3;
+opacity: 0.6;
+transform: rotate(-45deg);
+transform-origin: 50% 50%;
+}
+
+.camera_app {
+fill: #cccccc;
+}
+
+.camera_icon {
+fill: #383838;
+}
+
+.camera_icon_ring {
+fill: #383838;
+stroke: #cccccc;
+stroke-width: 0.3;
+}
+
+.camera_dot {
+fill: #FFEB3B;
+}
+
+.weather {
+fill: #40C4FF;
+}
+
+.weather_sun {
+fill: #FFEB3B;
+}
+
+.weather_cloud {
+fill: #FAFAFA;
+}
+
+.clock {
+fill: #262626;
+}
+
+.clock_face {
+fill: #FAFAFA;
+}
+
+.clock_handA {
+stroke: #262626;
+stroke-width: 0.8;
+}
+
+.clock_handB {
+stroke: #262626;
+stroke-width: 0.6;
+}
+
+.clock_handC {
+stroke: #F44336;
+stroke-width: 0.4;
+}
+
+.maps {
+fill: #FFECB3;
+}
+
+.maps_stroke {
+fill: none;
+stroke: #FFECB3;
+stroke-width: 2;
+}
+
+.map_road {
+fill: #FAFAFA;
+stroke: #BDBDBD;
+stroke-width: 0.4;
+}
+
+.map_direct {
+fill: #2196F3;
+}
+
+.map_mask {
+fill: #FAFAFA;
+}
+
+.map_maskA {
+fill: #FFD740;
+}
+
+.map_marker {
+fill: #2196F3;
+stroke: #FAFAFA;
+stroke-width: 0.4;
+}
+
+.map_pointer {
+font-size: 5px;
+}
+
+.map_altpath {
+fill: #FFD740;
+stroke: #FFAB00;
+stroke-width: 0.4;
+}
+
+.videos {
+fill: #4FC3F7;
+}
+
+.videos_header {
+fill: #262626;
+}
+
+.notes {
+fill: #FAFAFA;
+}
+
+.notes_header {
+fill: #FFD740;
+}
+
+.notes_div {
+fill: #9E9E9E;
+}
+
+.notes_dot {
+font-size: 6px;
+font-family: 'Roboto';
+}
+
+.reminders {
+fill: #FAFAFA;
+}
+
+.reminders_bulletA {
+fill: #FF9100;
+}
+
+.reminders_bulletB {
+fill: #00B0FF;
+}
+
+.reminders_bulletC {
+fill: #76FF03;
+}
+
+.reminders_bulletD {
+fill: #E040FB;
+}
+
+.reminders_div {
+fill: #9E9E9E;
+}
+
+.stocks {
+fill: #262626;
+}
+
+.stocks_div {
+fill: #616161;
+}
+
+.stocks_divA {
+fill: #2979FF;
+}
+
+.stocks_circle {
+fill: #2979FF;
+}
+
+.stocks_line {
+stroke: #616161;
+stroke-width: 0.3;
+}
+
+.gamecenter {
+fill: #FAFAFA;
+}
+
+.gamecenter_bubbleA {
+fill: #2196F3;
+opacity: 0.5;
+}
+
+.gamecenter_bubbleB {
+fill: #FFEB3B;
+opacity: 0.5;
+}
+
+.gamecenter_bubbleC {
+fill: #FF4081;
+opacity: 0.5;
+}
+
+.gamecenter_bubbleD {
+fill: #AA00FF;
+opacity: 0.5;
+}
+
+.newsstand {
+fill: #FAFAFA;
+}
+
+.newsstand_div {
+fill: #BDBDBD;
+opacity: 0.8;
+}
+
+.newsstand_divA {
+fill: #E0E0E0;
+}
+
+.newsstand_divB {
+fill: #FDD835;
+}
+
+.newsstand_divC {
+fill: #40C4FF;
+}
+
+.newsstand_divD {
+fill: #4CAF50;
+}
+
+.itunes {
+fill: #DE48D3;
+}
+
+.itunes_center {
+stroke: #FAFAFA;
+stroke-width: 0.8;
+fill: none;
+}
+
+.itunes_text_eighthnote {
+fill: #FAFAFA;
+font-size: 15px;
+font-family: 'Roboto';
+font-weight: 100;
+}
+
+.appstore {
+fill: #40C4FF;
+}
+
+.appstore_center {
+stroke: #FAFAFA;
+stroke-width: 0.8;
+fill: none;
+}
+
+.appstore_baseA {
+fill: #FAFAFA;
+}
+
+.appstore_segment_transformA {
+rx: 0.5;
+transform: rotate(60deg);
+transform-origin: 50% 50%;
+fill: #FAFAFA;
+stroke: #40C4FF;
+stroke-width: 0.2;
+}
+
+.appstore_segment_transformB {
+rx: 0.5;
+transform: rotate(-60deg);
+transform-origin: 50% 50%;
+fill: #FAFAFA;
+stroke: #40C4FF;
+stroke-width: 0.2;
+}
+
+.passbook {
+fill: #FF9100;
+}
+
+.passbook_segmentA {
+fill: #76FF03;
+}
+
+.notification {
+fill: #F44336;
+}
